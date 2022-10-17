@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    min-height: 100vh;
+    max-width: 65vh;
+    margin: auto;
+}
+
+.rightSideItem{
+    margin-left: 40px;
+    height: 500px;
+    width: 230px;
+}
+
+.image img{
+    height: 500px;
+    border-radius: 10px 0 0 10px;
+}
+
+.itemType{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.itemTitle{
+    font-family: 'Fraunces', serif;
+    padding-top: 0px;
+    margin: 0px !important;
+}
+
+.itemDescription{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.itemCost{
+    margin-top: 30px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+.itemCost::after{
+
+}
+
+.shopButton button{
+    margin-top: 20px;
+    background-color: hsl(158, 36%, 37%);
+    border: 0px;
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.shopButton button:hover{
+    background-color: hsl(159, 36%, 17%);
+}
+
+.shopButton button img{
+    padding-top: 10px;
+    margin-right: 7px;
+}
