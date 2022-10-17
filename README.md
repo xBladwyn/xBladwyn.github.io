@@ -1,1 +1,0 @@
-# viewcard_exercise
